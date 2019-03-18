@@ -30,8 +30,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="client\src\App.js" />
+    <Compile Include="client\src\App.test.js" />
+    <Compile Include="client\src\index.js" />
+    <Compile Include="client\src\serviceWorker.js" />
     <Compile Include="routes\index.js" />
     <Compile Include="routes\users.js" />
+    <Content Include="client\package.json" />
+    <Content Include="client\public\favicon.ico" />
+    <Content Include="client\public\index.html" />
+    <Content Include="client\public\manifest.json" />
+    <Content Include="client\src\App.css" />
+    <Content Include="client\src\index.css" />
+    <Content Include="client\src\logo.svg" />
     <Content Include="package.json" />
     <Content Include="public\stylesheets\main.css" />
     <Content Include="README.md" />
@@ -41,6 +52,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="client\" />
+    <Folder Include="client\public\" />
+    <Folder Include="client\src\" />
     <Folder Include="public\" />
     <Folder Include="public\images\" />
     <Folder Include="public\javascripts\" />
